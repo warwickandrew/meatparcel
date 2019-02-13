@@ -4,7 +4,7 @@ class Register extends Component {
   render() {
     return (
       <div>
-        <h1>Register</h1>
+        <h1>Register Page</h1>
       </div>
     )
   }
