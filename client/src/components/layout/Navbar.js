@@ -17,6 +17,12 @@ import { clearCurrentProfile } from '../../actions/profileActions';
 
     const authLinks = (
       <ul className="navbar-nav ml-auto">
+        <li>
+          <Link to='/dashboard'>
+            <i className='fas fa-user' />{' '}
+              <span className='hide-sm'>Dashboard</span>
+            </Link>
+        </li>
         <li className="nav-item">
           <a 
             href="/" 
